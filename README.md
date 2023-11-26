@@ -1,4 +1,4 @@
-# Webform-Automation-JUnit
+# JUNIT-Automation
 
 ## Project Summary 
 A selenium junit project for automating web-form fill up process and asserting the expected message after successfull form fillup.

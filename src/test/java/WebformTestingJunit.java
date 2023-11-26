@@ -41,7 +41,7 @@ public class WebformTestingJunit {
 
         WebElement uploadElement = driver.findElement(By.id("edit-uploadocument-upload"));
         // uploadElement.sendKeys("D:\\ROAD TO SDET VIDEO\\JAVA PRACTICE\\srk.jpg");
-        File document = new File("D:\\ROAD TO SDET VIDEO\\JAVA PRACTICE\\Webform-Automation-Junit\\src\\test\\resources\\jpg.png");
+        File document = new File("D:\\ROAD TO SDET VIDEO\\JAVA PRACTICE\\Webform-Automation-Junit\\src\\test\\resources\\srk.jpg");
         uploadElement.sendKeys(document.getAbsolutePath());
         driver.findElement(By.id("edit-age")).click();
         driver.findElement(By.id("edit-submit")).click();

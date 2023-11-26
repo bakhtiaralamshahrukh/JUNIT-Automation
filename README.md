@@ -22,9 +22,6 @@ https://www.digitalunite.com/practice-webform-learners
 - jdk 17
 - Selenium
   
-## Projrct Run Video
-https://drive.google.com/file/d/1KUzK0OSZAQ6VOIsfyLEl1TUyCMgTPntB/view?usp=sharing
-
 ## Project Report
 ![Capture](https://github.com/Sayma-Mahjuba/Webform-Automation-JUnit/assets/67679589/2c634892-2914-4f32-97eb-0ab749d20c8a)
 

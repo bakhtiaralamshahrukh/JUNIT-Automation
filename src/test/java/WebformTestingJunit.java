@@ -27,15 +27,15 @@ public class WebformTestingJunit {
         driver.get("https://www.digitalunite.com/practice-webform-learners");
 
         driver.findElement(By.id("onetrust-reject-all-handler")).click();
-        driver.findElement(By.id("edit-name")).sendKeys("Sayma Mahjuba");
-        driver.findElement(By.id("edit-number")).sendKeys("01721394724");
+        driver.findElement(By.id("edit-name")).sendKeys("srk");
+        driver.findElement(By.id("edit-number")).sendKeys("01796209139");
         driver.findElement(By.xpath("//label[contains(text(),'20-30')]")).click();
         driver.findElement(By.id("edit-date")).click();
         DateFormat todayDateFormat = new SimpleDateFormat("MM-dd-yyyy");
         Date currentDate = new Date();
         String todayDate = todayDateFormat.format(currentDate);
         driver.findElement(By.id("edit-date")).sendKeys(todayDate, Keys.ENTER);
-        driver.findElement(By.id("edit-email")).sendKeys("saymamahjuba@gmail.com");
+        driver.findElement(By.id("edit-email")).sendKeys("shahrukhbakhtiar@gmail.com");
         driver.findElement(By.id("edit-tell-us-a-bit-about-yourself-")).sendKeys("I have completed my BSc in Computer Science & Engineering from Chittagong University of Engineering and Technology(CUET).  " +
                 " I am eager to pursue a career in SQA.");
 
@@ -58,7 +58,7 @@ public class WebformTestingJunit {
         String expectedTitle = "Thank you for your submission!";
         Assertions.assertEquals(expectedTitle, actualTitle);
 //        String text = driver.findElement(By.id("uploadedFilePath")).getText();
-//        Assertions.assertTrue(text.contains("sayma.png"));
+//        Assertions.assertTrue(text.contains("srk.png"));
 
 
         //driver.findElement(By.id("edit-submit")).click();

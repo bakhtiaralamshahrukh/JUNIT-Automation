@@ -1,6 +1,6 @@
 # JUNIT-Automation
 
-## Project Summary 
+## Project Information 
 A selenium junit project for automating web-form fill up process and asserting the expected message after successfull form fillup.
 
 ## Project Scenario
@@ -23,7 +23,9 @@ https://www.digitalunite.com/practice-webform-learners
 - Selenium
   
 ## Project Report
-![Capture](https://github.com/Sayma-Mahjuba/Webform-Automation-JUnit/assets/67679589/2c634892-2914-4f32-97eb-0ab749d20c8a)
+![1](https://github.com/bakhtiaralamshahrukh/JUNIT-Automation/assets/69646920/1b5aecb2-1ba9-4204-b6cf-c4aa812f1287)
+![2](https://github.com/bakhtiaralamshahrukh/JUNIT-Automation/assets/69646920/3de05eba-ab06-4156-858c-b277d1612867)
 
-![capture 2](https://github.com/Sayma-Mahjuba/Webform-Automation-JUnit/assets/67679589/60e6bf31-6977-4281-9933-7df57f04cfe5)
+
+
 
